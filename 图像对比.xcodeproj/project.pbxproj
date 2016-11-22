@@ -15,6 +15,8 @@
 		162C8FAE1DDD9EFD00B4192B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 162C8FAC1DDD9EFD00B4192B /* LaunchScreen.storyboard */; };
 		162C8FB91DDD9EFD00B4192B /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 162C8FB81DDD9EFD00B4192B /* ____Tests.m */; };
 		162C8FC41DDD9EFD00B4192B /* ____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 162C8FC31DDD9EFD00B4192B /* ____UITests.m */; };
+		162C8FD31DDD9F9D00B4192B /* Slider.m in Sources */ = {isa = PBXBuildFile; fileRef = 162C8FD21DDD9F9D00B4192B /* Slider.m */; };
+		162C8FD61DDD9FBC00B4192B /* Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 162C8FD51DDD9FBC00B4192B /* Compare.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		162C8FBF1DDD9EFD00B4192B /* 图像对比UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "图像对比UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		162C8FC31DDD9EFD00B4192B /* ____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____UITests.m"; sourceTree = "<group>"; };
 		162C8FC51DDD9EFD00B4192B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		162C8FD11DDD9F9D00B4192B /* Slider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Slider.h; sourceTree = "<group>"; };
+		162C8FD21DDD9F9D00B4192B /* Slider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Slider.m; sourceTree = "<group>"; };
+		162C8FD41DDD9FBC00B4192B /* Compare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Compare.h; sourceTree = "<group>"; };
+		162C8FD51DDD9FBC00B4192B /* Compare.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Compare.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +109,10 @@
 			children = (
 				162C8FA11DDD9EFD00B4192B /* AppDelegate.h */,
 				162C8FA21DDD9EFD00B4192B /* AppDelegate.m */,
+				162C8FD11DDD9F9D00B4192B /* Slider.h */,
+				162C8FD21DDD9F9D00B4192B /* Slider.m */,
+				162C8FD41DDD9FBC00B4192B /* Compare.h */,
+				162C8FD51DDD9FBC00B4192B /* Compare.m */,
 				162C8FA41DDD9EFD00B4192B /* ViewController.h */,
 				162C8FA51DDD9EFD00B4192B /* ViewController.m */,
 				162C8FA71DDD9EFD00B4192B /* Main.storyboard */,
@@ -275,6 +285,8 @@
 			files = (
 				162C8FA61DDD9EFD00B4192B /* ViewController.m in Sources */,
 				162C8FA31DDD9EFD00B4192B /* AppDelegate.m in Sources */,
+				162C8FD61DDD9FBC00B4192B /* Compare.m in Sources */,
+				162C8FD31DDD9F9D00B4192B /* Slider.m in Sources */,
 				162C8FA01DDD9EFD00B4192B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
